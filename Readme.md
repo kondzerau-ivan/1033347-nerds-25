@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Ivan Kondzerau](https://up.htmlacademy.ru/htmlcss/25/user/1033347).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
