@@ -27,7 +27,7 @@
 					</ul>
 					<ul class="user-cart">
             <li class="user-cart__item">
-              <a  class="user-cart__link" href="">
+              <a  class="user-cart__link" href="cart.html">
                 <img src="#" alt="Корзина">
               </a>
             </li>
@@ -44,7 +44,9 @@
 				<div class="container">
 					<div class="filters">
 						<h2 class="visibility-hidden">Фильтр шаблонов</h2>
-						<!--Место для формы-->
+						<form action="https://echo.htmlacademy.ru">
+						
+						</form>
 					</div>
 					<div class="catalog-content">
 						<h2 class="visibility-hidden">Список шаблонов</h2>
@@ -148,6 +150,23 @@
           </div>
         </div>
       </div>
-    </footer>
+		</footer>
+		<div class="popup-container">
+			<form class="connect" action="https://echo.htmlacademy.ru" method="POST">
+				<label class="connect__label_name">
+					<span class="connect__text_name">Ваше имя:</span>
+					<input class="connect__input_name" type="text" name="name" value="" placeholder="Имя Фамилия">
+				</label>
+				<label class="connect__label_email">
+					<span class="connect__text_email">Ваш e-mail:</span>
+					<input class="connect__input_email" type="email" name="email" value="" placeholder="email@example.com">
+				</label>
+				<label class="connect__label_massage">
+					<span class="connect__text_massage">Текст письма:</span>
+					<input class="connect__input_massage"type="text" name="message" value="" placeholder="В свободной форме">
+				</label>
+				<button class="connect__button" type="submit">Отправить</button>
+			</form>
+		</div>
 	</body>
 </html>
