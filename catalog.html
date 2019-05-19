@@ -44,8 +44,66 @@
 				<div class="container">
 					<div class="filters">
 						<h2 class="visibility-hidden">Фильтр шаблонов</h2>
-						<form action="https://echo.htmlacademy.ru">
-						
+						<form class="filters__form" method="GET" action="https://echo.htmlacademy.ru">
+							<fieldset>
+								<legend class="filters__legend">Сетка</legend>
+									<ul class="filters__list">
+										<li class="filters__item">
+											<label class="filters__label">
+												<span class="filters__text">Адаптивная</span>
+												<input class="filters__radio" type="radio" name="grid-style" checked>
+											</label>
+										</li>
+										<li class="filters__item">
+											<label class="filters__label">
+												<span class="filters__text">Фиксированная</span>
+												<input class="filters__radio" type="radio" name="grid-style">
+											</label>
+										</li>
+										<li class="filters__item">
+											<label class="filters__label">
+												<span class="filters__text">Резиновая</span>
+												<input class="filters__radio" type="radio" name="grid-style">
+											</label>
+										</li>
+									</ul>		
+							</fieldset>
+							<fieldset>
+								<legend class="filters__legend">Особенности:</legend>
+								<ul class="filters__list">
+									<li class="filters__item">
+										<label class="filters__label">
+											<span class="filters__text">Слайдер</span>
+											<input class="filters__checkbox" type="checkbox" name="check-features" checked>
+										</label>
+									</li>
+									<li class="filters__item">
+										<label class="filters__label">
+											<span class="filters__text">Блок преимуществ</span>
+											<input class="filters__checkbox" type="checkbox" name="check-features">
+										</label>
+									</li>
+									<li class="filters__item">
+										<label class="filters__label">
+											<span class="filters__text">Новости</span>
+											<input class="filters__checkbox" type="checkbox" name="check-features" checked>
+										</label>
+									</li>
+									<li class="filters__item">
+										<label class="filters__label">
+											<span class="filters__text">Галерея</span>
+											<input class="filters__checkbox" type="checkbox" name="check-features">
+										</label>
+									</li>
+									<li class="filters__item">
+										<label class="filters__label">
+											<span class="filters__text">Корзина</span>
+											<input class="filters__checkbox" type="checkbox" name="check-features">
+										</label>
+									</li>
+								</ul>
+							</fieldset>
+							<button class="filters__button" type="submit">Показать</button>
 						</form>
 					</div>
 					<div class="catalog-content">
