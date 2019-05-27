@@ -193,3 +193,38 @@ a {
 .catalog-content__button:active {
 	background-color: #d7373b;
 }
+
+.container {
+	display: flex;
+	width: 1440px;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.main-header__link {
+	margin: 49px 140px 85px;
+}
+
+.site-navigation {
+	display: flex;
+	margin: 83px 62px;
+}
+
+.user-cart {
+	display: flex;
+	margin: 83px 140px 36px 224px;
+}
+
+.user-cart__item {
+	display: flex;
+}
+
+.site-navigation__clients {
+	margin: 0 48px 0 47px;
+}
+
+.site-navigation__shop {
+	margin-right: 45px;
+}
