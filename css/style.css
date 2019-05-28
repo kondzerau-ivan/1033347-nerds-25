@@ -14,6 +14,14 @@ a {
 	text-decoration: none;
 }
 
+.visibility-hidden {
+	position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .main-navigation {
 	font-weight: 500;
 	line-height: 1.88;
@@ -227,4 +235,45 @@ a {
 
 .site-navigation__shop {
 	margin-right: 45px;
+}
+
+.main-offers__list {
+	display: flex;
+}
+
+.main-offers__item-web {
+	margin: 80px 100px 80px 140px;
+}
+
+.main-offers__item-app {
+	margin: 80px 100px;
+}
+
+.main-offers__item-presentation {
+	margin: 80px 200px 80px 0;
+}
+
+.footer-social {
+	display: flex;
+}
+
+.footer-social__list {
+	display: flex;
+}
+
+.footer-social__item-vk {
+	margin: 69px 12px 69px 140px;
+}
+
+.footer-social__item-fb {
+	margin: 69px 11px 69px 0;
+}
+
+.footer-social__item-ig {
+	margin: 69px 139px 69px 0;
+}
+
+.footer-social__text {
+	margin: 78px 356px 76px 139px;
+	width: 545px;
 }
