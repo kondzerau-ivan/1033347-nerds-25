@@ -277,3 +277,28 @@ a {
 	margin: 78px 356px 76px 139px;
 	width: 545px;
 }
+
+.catalog-title {
+	width: 1440px;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.filters {
+	margin-left: 141px;
+}
+
+.catalog-content {
+	margin-left: 140px;
+}
+
+.catalog-content__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.catalog-content__item {
+	margin-right: 40px;
+}
