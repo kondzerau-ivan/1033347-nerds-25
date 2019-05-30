@@ -205,9 +205,8 @@ a {
 .container {
 	display: flex;
 	margin: 0 auto;
-	widows: 1160px;
+	width: 1160px;
 	padding: 0 20px;
-	justify-content: center;
 }
 
 .main-navigation {
@@ -281,17 +280,8 @@ a {
 	width: 545px;
 }
 
-.catalog-title {
-	width: 1160px;
-	padding: 0 20px;
-}
-
 .page-title {
 	text-align: center;
-}
-
-.catalog-content {
-	margin-left: 140px;
 }
 
 .catalog-content__list {
@@ -300,5 +290,5 @@ a {
 }
 
 .catalog-content__item {
-	margin-right: 40px;
+	margin-left: 40px;
 }
