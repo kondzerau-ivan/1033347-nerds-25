@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	
@@ -14,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+figure {
+	margin: 0;
+}
+
 .visibility-hidden {
 	position: absolute;
   clip: rect(0 0 0 0);
@@ -22,13 +34,20 @@ a {
   margin: -1px;
 }
 
+.main-header {
+	padding: 49px 0;
+	background-color: #eee;
+}
+
 .main-navigation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
 	font-weight: 500;
 	line-height: 1.88;
 	text-transform: uppercase;
 	color: #000;
-
-	background-color: #eee;
 }
 
 .site-navigation,
@@ -209,22 +228,16 @@ a {
 	padding: 0 20px;
 }
 
-.main-navigation {
-	display: flex;
-}
-
 .main-header__link {
-	margin: 49px 202px 85px 0;
+	margin-right: auto;
 }
 
 .site-navigation {
 	display: flex;
-	margin: 83px 245px 36px 0;
 }
 
 .user-cart {
 	display: flex;
-	margin: 83px 0 36px 0;
 }
 
 .user-cart__item {
@@ -232,11 +245,13 @@ a {
 }
 
 .site-navigation__clients {
-	margin: 0 48px 0 47px;
+	margin-right: 48px;
+	margin-left: 47px;
 }
 
-.site-navigation__shop {
-	margin-right: 45px;
+.site-navigation__contacts {
+	margin-right: 245px;
+	margin-left: 45px;
 }
 
 .main-offers__list {
@@ -244,15 +259,24 @@ a {
 }
 
 .main-offers__item-web {
-	margin: 80px 100px 80px 0;
+	width: 300px;
+}
+
+.main-offers__item-web p {
+	width: 244px;
 }
 
 .main-offers__item-app {
-	margin: 80px 100px 80px 0;
+	width: 300px;
+	margin: 0 100px;
 }
 
 .main-offers__item-presentation {
-	margin: 80px 0;
+	width: 300px;
+}
+
+.main-offers__item-presentation p {
+	width: 220px;
 }
 
 .footer-social {
@@ -261,22 +285,21 @@ a {
 
 .footer-social__list {
 	display: flex;
-}
-
-.footer-social__item-vk {
-	margin: 69px 12px 69px 0;
+	width: 100%;
+	padding: 69px 0;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .footer-social__item-fb {
-	margin: 69px 11px 69px 0;
+	margin: 0 11px 0 12px;
 }
 
 .footer-social__item-ig {
-	margin: 69px 139px 69px 0;
+	margin-right: 139px;
 }
 
 .footer-social__text {
-	margin: 78px 0 76px 139px;
 	width: 545px;
 }
 
@@ -287,8 +310,37 @@ a {
 .catalog-content__list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-end;
 }
 
-.catalog-content__item {
+.catalog-content__list li {
 	margin-left: 40px;
+}
+
+.catalog-content__list p {
+	text-align: center;
+}
+
+.catalog-content__item-sedona p {
+	width: 180px;
+}
+
+.catalog-content__item-pink p {
+	width: 230px;
+}
+
+.catalog-content__item-barbershop p {
+	width: 170px;
+}
+
+.catalog-content__item-mishka p {
+	width: 140px;
+}
+
+.catalog-content__item-aplus p {
+	width: 220px;
+}
+
+.catalog-content__item-kvast p {
+	width: 220px;
 }
