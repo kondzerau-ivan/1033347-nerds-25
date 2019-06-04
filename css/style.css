@@ -255,24 +255,18 @@ figure {
 }
 
 .main-offers__list {
+	padding: 0;
+	width: 100%;
 	display: flex;
+	justify-content: space-between;
 }
 
-.main-offers__item-web {
+.main-offers__item {
 	width: 300px;
 }
 
 .main-offers__item-web p {
 	width: 244px;
-}
-
-.main-offers__item-app {
-	width: 300px;
-	margin: 0 100px;
-}
-
-.main-offers__item-presentation {
-	width: 300px;
 }
 
 .main-offers__item-presentation p {
@@ -281,14 +275,14 @@ figure {
 
 .footer-social {
 	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .footer-social__list {
 	display: flex;
 	width: 100%;
 	padding: 69px 0;
-	align-items: center;
-	justify-content: flex-start;
 }
 
 .footer-social__item-fb {
@@ -308,6 +302,7 @@ figure {
 }
 
 .catalog-content__list {
+	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
