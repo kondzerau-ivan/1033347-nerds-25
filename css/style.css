@@ -301,15 +301,16 @@ figure {
 	text-align: center;
 }
 
-.catalog-content__list {
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
+.filters {
+	margin-right: 140px;
 }
 
-.catalog-content__list li {
-	margin-left: 40px;
+.catalog-content__list {
+	padding: 0;
+	width: 760px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .catalog-content__list p {
