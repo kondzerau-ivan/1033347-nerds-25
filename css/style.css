@@ -79,6 +79,121 @@ figure {
 	margin-right: 26px;
 }
 
+.main-slider__item{
+	display: none;
+	padding: 78px 0 80px 0;
+}
+
+.main-slider__item:nth-child(1){
+	display: block;
+}
+
+.main-slider{
+	position: relative;
+	background-color: #eee;
+}
+
+.main-slider__list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-slider__heading{
+	max-width: 600px;
+	margin: 0;
+	margin-bottom: 27px;
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: 500;
+}
+
+.main-slider__paragraph{
+	max-width: 430px;
+	margin: 0;
+	margin-bottom: 38px;
+}
+
+.main-slider__button{
+	display: block;
+  width: 240px;
+  padding: 13px 0;
+  
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  
+  background-color: #fb565a;
+  border-radius: 3px;
+  border: none;
+}
+
+.main-slider__button:hover,
+.main-slider__button:focus {
+	background-color: #e74246;
+}
+
+.main-slider__button:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #d7373b;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.main-slider__controls i {
+	position: relative;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	padding: 8px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.main-slider__controls i::after {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	z-index: 1;
+	width: 18px;
+	height: 18px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.main-slider__controls {
+	position: absolute;
+  left: 50%;
+  bottom: 104px;
+  z-index: 100; 
+  width: 160px;
+  height: 18px;
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
+}
+
+.main-slider__item:nth-child(1) {
+  background-image: url("/img/slide-picture1.png");
+  background-repeat: no-repeat;
+  background-position: 100% 18px;
+}
+
+.main-slider__item:nth-child(2) {
+	background-image: url("/img/slide-picture2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 18px;
+}
+
+.main-slider__item:nth-child(3) {
+	background-image: url("/img/slide-picture3.png");
+  background-repeat: no-repeat;
+  background-position: 100% 18px;
+}
+
 .main-offers__heading {
 	font-size: 24px;
 	font-weight: bold;
