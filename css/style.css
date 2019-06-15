@@ -354,13 +354,23 @@ figure {
 	transform: translateX(-50%);
 	width: 960px;
 	height: 590px;
+	padding: 0 100px 0 100px;
   box-shadow: 0px 20px 40px 0 var(--dark-forest-green--75);
 }
 
-.connect__label_name,
-.connect__label_email,
-.connect__label_massage{
+.connect__name-email,
+.connect__div_name,
+.connect_div_email {
 	display: flex;
+}
+
+.connect__name-email {
+	justify-content: space-between;
+	margin-bottom: 36px;
+}
+
+.connect__div_name,
+.connect_div_email {
 	flex-direction: column;
 }
 

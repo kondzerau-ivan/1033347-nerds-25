@@ -185,18 +185,18 @@
     <div class="popup-container">
       <form class="connect" action="https://echo.htmlacademy.ru" method="POST">
         <h2 class="connect__heading">Напишите нам</h2>
-        <label class="connect__label_name">
-          <span class="connect__text_name">Ваше имя:</span>
-          <input class="connect__input_name" type="text" name="name" value="" placeholder="Имя Фамилия">
-        </label>
-        <label class="connect__label_email">
-          <span class="connect__text_email">Ваш e-mail:</span>
-          <input class="connect__input_email" type="email" name="email" value="" placeholder="email@example.com">
-        </label>
-        <label class="connect__label_massage">
-          <span class="connect__text_massage">Текст письма:</span>
-          <input class="connect__input_massage"type="text" name="message" value="" placeholder="В свободной форме">
-        </label>
+        <div class="connect__name-email">
+          <div class="connect__div_name">
+            <label class="connect__label_name" for="name">Ваше имя:</label>
+            <input class="connect__input_name" type="text" name="name" value="" placeholder="Имя Фамилия" id="name">
+          </div>
+          <div class="connect_div_email">
+            <label class="connect__label_email" for="email">Ваш e-mail:</label>
+            <input class="connect__input_email" type="email" name="email" value="" placeholder="email@example.com" id="email">
+          </div>
+        </div>
+        <label class="connect__label_massage" for="text">Текст письма:</label>
+        <input class="connect__input_massage"type="text" name="message" value="" placeholder="В свободной форме" id="text">
         <button class="connect__button" type="submit">Отправить</button>
         <button class="connect__b-close" type="button" aria-label="Закрыть"></button>
       </form>
