@@ -165,6 +165,8 @@ figure {
 }
 
 .main-slider__controls {
+	display: flex;
+	justify-content: space-between;
 	position: absolute;
   left: 50%;
   bottom: 104px;
@@ -404,6 +406,16 @@ figure {
 	display: flex;
 	width: 100%;
 	padding: 69px 0;
+}
+
+.footer-social__link {
+	display: flex;
+	background: #e1e1e1;
+	width: 71px;
+	height: 71px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer-social__item-fb {
